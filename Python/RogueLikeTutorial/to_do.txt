@@ -1,0 +1,34 @@
+[X] refactor TUs int -> float
+[X] diagonal movement TU cost
+[X] input handler returns a dict of values that gets unpacked elsewhere instead of directly creating action objects
+[X] handle actions inside entity class
+[X] level doesn't care about the player, treats all entities as equivalent
+[X] entity component base object - properties to get members of parent entity
+[ ] mouse input tool - show optimal path
+[ ] mouse input tool - show straight line path
+[ ] mouse input tool to queue player movement actions
+[ ] player movement action queue to test pathfinding
+[ ] level get_route() method - input 2 points and return the optimal list of steps to take to get from the first to the second
+[X] level get_step() method - input 2 points and return the first step on the optimal route to get from the first to the second
+[X] pathfinding improvement - return (an) optimal path
+[ ] pathfinding improvement - return a path that looks like a straight line when possible
+[X] stuff gets logged sensibly
+[X] render entities have icon IDs for UI elements as well as graphics IDs
+[ ] actions are handled inside relevant components
+[ ] text format that can vary colours
+[ ] new text format that can include icons
+[/] Interface.py
+    [X] panel object - generic UI panel that the renderer knows what to do with
+    [X] popup panel - panel that just has a button that says "OK" on it (like a "btw you just died" panel)
+    [/] selection list panel - panel that contains a list and a selection index, ability to pick an item from the list
+    [X] ability for panels to do things - open other panels, make actions, etc...
+[/] tutorial pt 8: items and inventory
+    [X] items that can be picked up
+    [X] items that cannot be picked up
+    [X] ability to drop items
+    [X] ability to use items
+[ ] tutorial pt 9: ranged scrolls and targeting
+[ ] tutorial pt 10: saving and loading
+[ ] tutorial pt 11: delving into the dungeon
+[ ] tutorial pt 12: increasing difficulty
+[ ] tutorial pt 13: gearing up
