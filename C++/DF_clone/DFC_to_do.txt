@@ -1,0 +1,34 @@
+Structures
+    Solid block-occupies entire cell
+    Wall/floor/door/window-face shared by 2 cells
+    Pipes/ducts/cables/tubes???linear structures for transporting resources/messages
+    multicell structures
+Zones
+    stockpiles / dumps
+    rooms - bedrooms / workshops / rec rooms
+Creatures
+    People/aliens/robots/drones
+    Survival mechanics
+    Anatomy - body parts get chopped off - blood everywhere
+Items
+    Inventories
+    Crafting
+    Materials
+    Weight/volume
+Tasks
+    Carrying jobs
+    Crafting jobs
+    Building jobs
+    Eat/drink/sleep jobs
+Industry
+    Automation
+    Logic system
+    Factories
+Fluids
+    Atmosphere
+    Liquids?
+    Crud everywhere - dust / sand / gravel - needs cleaning
+Render modes
+    Dwarf Fortress mode - top down view
+    Gnomoria mode - isometric perspective
+
