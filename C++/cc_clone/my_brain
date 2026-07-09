@@ -1,0 +1,7 @@
+echo "Compiling..."
+
+g++ code/*.cpp -o CCClone $(pkg-config --cflags --libs sdl3) -lSDL3_ttf
+
+echo "Running..."
+
+./CCClone
